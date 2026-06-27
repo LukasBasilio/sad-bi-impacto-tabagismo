@@ -1,0 +1,13 @@
+# Ignorar arquivos de ambiente virtual (pesados e dependentes do SO)
+.venv/
+
+# Ignorar o cofre de senhas (MUITO IMPORTANTE PARA SEGURANÇA)
+.env
+
+# Ignorar arquivos temporários de compilação do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos gigantescos de dados e logs (MUITO IMPORTANTE)
+data/
+*.parquet
